@@ -1,0 +1,13 @@
+var svg = d3.select(".line_title")
+    .append("svg")
+    .attr('width', 1200)
+    .attr('height', 30)
+    .attr('transform','translate(180,0)')
+
+    svg.append('text')
+    .attr('x', 300)
+    .attr('y', 20)
+    .text('< Arrest Rate of Chicago 09\' ~ 18\' >')
+    .style('font-size', '19px')
+    .attr("font-family", "sans-serif")
+    .attr("fill", "black")

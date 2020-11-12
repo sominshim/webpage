@@ -1,0 +1,13 @@
+var svg = d3.select(".pie_title")
+    .append("svg")
+    .attr('width', 1200)
+    .attr('height', 60)
+    .attr('transform','translate(180,0)')
+
+    svg.append('text')
+    .attr('x', 280)
+    .attr('y', 40)
+    .text('< Firearm Related Crime Ratio >')
+    .style('font-size', '19px')
+    .attr("font-family", "sans-serif")
+    .attr("fill", "black")
